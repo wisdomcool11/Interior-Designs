@@ -74,3 +74,9 @@ ScrollReveal().reveal('.gallary__section h2, .section_3_wrap h2', {deley:600, or
 ScrollReveal().reveal('.img__wrap', {deley:600, origin: 'left', interval: 500})
 ScrollReveal().reveal('.deal__content h3, .deal__content p, .deal__content h5', {deley:600, origin: 'left', interval: 500})
 ScrollReveal().reveal('.deal__img img', {deley:700, origin: 'bottom',})
+
+// footer
+ScrollReveal().reveal('.top_box h2,.top_box a', {deley:500, origin: 'bottom', interval: 100})
+ScrollReveal().reveal('.socials a', {deley:700, origin: 'left', interval: 200})
+ScrollReveal().reveal('.down__content', {deley:800, origin: 'right'})
+

@@ -341,8 +341,6 @@ nav{
     /*hero content*/
     .hero__content{
         padding: 3rem ;
-        border: 3px solid green;
-
     }
     .hero__wrap{
         width: 100%;
@@ -351,8 +349,6 @@ nav{
     .hero__wrap h1{
         font-size: 2.3rem;
         width: 100%;
-        border: 3px solid green;
-
     }
     .hero__wrap p{
         width: 100%;

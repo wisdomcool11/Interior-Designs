@@ -18,6 +18,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-size: 1rem;
     font-weight: 400;
@@ -282,8 +287,11 @@ nav{
         animation: fadeIn 0.7s ease-in;
     }
 
+    .menu{
+        column-gap: 15px;
+    }
     .menu__link{
-        font-size: 0.89rem;
+        font-size: 0.75rem;
     }
     .menu__link:hover{
         text-underline-offset: 8px;
@@ -291,6 +299,7 @@ nav{
     #header_btn{
         font-size: 0.89rem;
         height: 32px;
+        width: 100px;
     }
 
     /* toggle bar */
@@ -332,13 +341,18 @@ nav{
     /*hero content*/
     .hero__content{
         padding: 3rem ;
+        border: 3px solid green;
+
     }
     .hero__wrap{
         width: 100%;
         row-gap: 15px;
     }
     .hero__wrap h1{
-        font-size: 2.6rem;
+        font-size: 2.3rem;
+        width: 100%;
+        border: 3px solid green;
+
     }
     .hero__wrap p{
         width: 100%;
@@ -349,7 +363,7 @@ nav{
         width: 100%;
     }
     .hero__wrap input[type=text]{
-        width:240px
+        width:190px
     }
 }
 

@@ -60,7 +60,6 @@ const validateEmail = () =>{
 
 //#### scroll reveal 
 ScrollReveal({
-    reset: true,
     distance: '80px',
     duration: 3500,
     deley: 700
